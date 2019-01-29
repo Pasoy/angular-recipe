@@ -24,7 +24,7 @@
             ],
             "styles": [
               "./node_modules/bootstrap/scss/bootstrap.scss",
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -138,6 +138,9 @@
       "component": {
         "spec": false
       }
+    },
+    "@schematics/angular:component": {
+      "styleext": "scss"
     }
   }
 }

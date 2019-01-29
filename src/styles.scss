@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+
+$elegant-color: #1C2331;
+$elegant-color-dark: #0e0f1d;
+
+body {
+  color: #EEEEEE;
+  background-color: $elegant-color;
+  padding-top: 80px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: $elegant-color-dark;
+}
+
+.navbar-dark {
+  background-color: $elegant-color-dark !important;
+}
