@@ -6,13 +6,6 @@
 <hr/>
 <div class="row">
   <div class="col-md-12">
-    <div class="media rounded" *ngFor="let recipe of recipes">
-      <div class="media-body">
-        <h4 class="list-group-item-heading">{{recipe.name}}</h4>
-        <p class="list-group-item-text">{{recipe.description}}</p>
-      </div>
-      <img [src]="recipe.imagePath" alt="{{recipe.name}}" class="img-responsive" style="max-height: 80px">
-    </div>
-    <app-recipe-item></app-recipe-item>
+    <app-recipe-item [recipe]="recipeItem" (recipeSelected)="onRecipeSelected(recipeItem)" *ngFor="let recipeItem of recipes"></app-recipe-item>
   </div>
 </div>

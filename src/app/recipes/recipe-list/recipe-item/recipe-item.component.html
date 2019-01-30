@@ -1,3 +1,7 @@
-<p>
-  recipe-item works!
-</p>
+<div (click)="onSelected()" class="media rounded hover">
+  <div class="media-body">
+    <h4 class="list-group-item-heading">{{recipe.name}}</h4>
+    <p class="list-group-item-text">{{recipe.description}}</p>
+  </div>
+  <img [src]="recipe.imagePath" alt="{{recipe.name}}" class="img-responsive" style="max-height: 80px">
+</div>
