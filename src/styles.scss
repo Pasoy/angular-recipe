@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
-$elegant-color: #1C2331;
-$elegant-color-dark: #0e0f1d;
+$elegant-color: #222222;
+$elegant-color-dark: #181818;
 
 body {
   color: #EEEEEE;
@@ -21,4 +21,18 @@ footer {
 
 .navbar-dark {
   background-color: $elegant-color-dark !important;
+}
+
+.btn-space {
+  margin-left: 5px;
+}
+
+.list-group-item {
+  color: $elegant-color !important;
+}
+
+.media {
+  background-color: $elegant-color-dark;
+  margin-bottom: 5px;
+  padding: 8px;
 }
