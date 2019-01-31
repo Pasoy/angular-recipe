@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-footer',
@@ -6,12 +6,9 @@ import {Component} from '@angular/core';
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent {
-
-  constructor() {
-  }
+  constructor() {}
 
   getYear() {
     return new Date().getFullYear();
   }
-
 }

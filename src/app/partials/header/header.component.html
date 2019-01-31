@@ -1,16 +1,25 @@
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-  <a class="navbar-brand" href="#">PRecipes</a>
-  <button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
-          data-target="#navbarCollapse" data-toggle="collapse" type="button">
+  <a class="navbar-brand">PRecipes</a>
+  <button
+    aria-controls="navbarCollapse"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+    class="navbar-toggler"
+    data-target="#navbarCollapse"
+    data-toggle="collapse"
+    type="button"
+  >
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarCollapse">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a (click)="onSelect('recipe')" class="nav-link" href="#">Recipes</a>
+        <a (click)="onSelect('recipe')" class="nav-link">Recipes</a>
       </li>
       <li class="nav-item">
-        <a (click)="onSelect('shopping-list')" class="nav-link" href="#">Shopping List</a>
+        <a (click)="onSelect('shopping-list')" class="nav-link"
+          >Shopping List</a
+        >
       </li>
     </ul>
   </div>
